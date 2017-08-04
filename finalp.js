@@ -10,8 +10,8 @@ $('document').ready(function(){
         var output = "";
         for (var i = 0; i < data.response.docs.length; i++) {
           var target = data.response.docs[i]
-          if(target.document_type === 'article' && target.headline.print_headline && target.multimedia){
-            output += "<div class='card'><div class='card-image'><img src='https://www.nytimes.com/" + target.multimedia[0].url + "'><span class='card-title'>" + target.headline.print_headline + "<a href='" + target.web_url + "'target='_blank'>" + target.headline.print_headline + "</a></spaan></div></div>";
+          if(target.document_type === 'article' && target.headline.print_headline && target.multimedia.length){
+            output += "<div class='card'><div class='card-image'><img src='https://www.nytimes.com/" + target.multimedia[0].url + "'><span class='card-title'>" + target.headline.print_headline + "<a href='" + target.web_url + "'target='_blank'>" + target.headline.print_headline + "</a></div></div>";
           }
         }
 

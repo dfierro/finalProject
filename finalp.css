@@ -4,32 +4,26 @@ img {
   opacity: 2;
 }
 
-
-/*ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: right;
-}
-
-li a {
-  display: inline-block;
-  padding: 8px;
-  background-color: #dddddd;
-}*/
-
 span {
   font-size: 70px;
   font-family: Abril Fatface;
 }
 
+.waves-effect {
+  background-color: #a51f1f !important;
+}
+
+.waves-light {
+  background-color: #a51f1f !important;
+}
+
+.btn {
+  background-color: #a51f1f !important;
+}
+
 nav {
-  color: #a51f1f;
-  background-color: #7a7676;
+  color: #a51f1f !important;
+  background-color: #7a7676 !important;
   width: 50%;
   height: 56px;
   line-height: 56px;
@@ -40,5 +34,40 @@ h2 {
 }
 
 body {
-  background-color: cornsilk;
+  background-color: white;
+}
+
+header {
+  height: 20%;
+  overflow: hidden;
+}
+
+#hero {
+  overflow: hidden;
+  height: 20%;
+}
+
+#logo {
+  position: absolute;
+  font-size: 3.5rem;
+  font-family: Abril Fatface;
+  z-index: 0;
+}
+
+#banner {
+  width: 100%;
+  position: absolute;
+  /*top: 60px;*/
+  z-index: -1;
+  overflow: hidden;
+}
+
+main {
+  margin-top: 210px;
+  padding-top: 10px;
+  background-color: white;
+}
+
+lor: white;
+
 }
